@@ -1,0 +1,15 @@
+# PSBT QR - UR2 QR Code Tools
+# Requirements for PSBT UR2 display and QR scanning
+
+# Core dependencies for UR2 functionality
+embit>=0.0.20
+urtypes>=0.0.1
+
+# QR code generation and display
+qrcode[pil]>=7.3
+
+# Camera and QR code scanning (OpenCV-based, no zbar dependency)
+opencv-python>=4.5.0
+
+# Optional: For better QR code display
+Pillow>=8.0.0 
